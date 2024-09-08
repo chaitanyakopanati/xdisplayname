@@ -13,7 +13,6 @@ const App = () => {
     e.preventDefault();
     if (fullName.firstName === "" || fullName.lastName === "") {
       setError("Both fields are required");
-      setSubmittedName("");
     } 
     else {
       setError("");
