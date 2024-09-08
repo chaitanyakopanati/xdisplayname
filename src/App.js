@@ -33,7 +33,7 @@ const App = () => {
     <div className="App">
       <div style={{ textAlign: "center", marginTop: "20px" }}>
         <h1>Full Name Display</h1>
-        <form onSubmit={handleSubmit} noValidate>
+        <form onSubmit={handleSubmit}>
           <div>
             <label>
               First Name:
